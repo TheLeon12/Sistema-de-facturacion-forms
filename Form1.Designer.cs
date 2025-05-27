@@ -28,247 +28,152 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Panelmenulateral = new Panel();
+            panelSubMenu = new Panel();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            panel2 = new Panel();
+            adminbt = new Button();
             panel1 = new Panel();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            panel2 = new Panel();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            panel3 = new Panel();
-            textBox7 = new TextBox();
-            label2 = new Label();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            button6 = new Button();
-            panel1.SuspendLayout();
+            PanelLogo = new Panel();
+            Panelmenulateral.SuspendLayout();
+            panelSubMenu.SuspendLayout();
             panel2.SuspendLayout();
-            panel3.SuspendLayout();
-            panel4.SuspendLayout();
-            panel5.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
+            // Panelmenulateral
             // 
-            panel1.Controls.Add(button5);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Location = new Point(1, 1);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(138, 447);
-            panel1.TabIndex = 7;
+            Panelmenulateral.BackColor = Color.FromArgb(13, 61, 161);
+            Panelmenulateral.Controls.Add(panelSubMenu);
+            Panelmenulateral.Controls.Add(panel2);
+            Panelmenulateral.Controls.Add(panel1);
+            Panelmenulateral.Controls.Add(PanelLogo);
+            Panelmenulateral.Dock = DockStyle.Left;
+            Panelmenulateral.Location = new Point(0, 0);
+            Panelmenulateral.Margin = new Padding(4);
+            Panelmenulateral.Name = "Panelmenulateral";
+            Panelmenulateral.Size = new Size(231, 563);
+            Panelmenulateral.TabIndex = 7;
             // 
-            // button1
+            // panelSubMenu
             // 
-            button1.Location = new Point(11, 48);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 8;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(11, 95);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 9;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(11, 150);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 10;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(11, 206);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 11;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            panelSubMenu.Controls.Add(button5);
+            panelSubMenu.Controls.Add(button4);
+            panelSubMenu.Controls.Add(button3);
+            panelSubMenu.Dock = DockStyle.Top;
+            panelSubMenu.Location = new Point(0, 198);
+            panelSubMenu.Name = "panelSubMenu";
+            panelSubMenu.Size = new Size(231, 159);
+            panelSubMenu.TabIndex = 3;
             // 
             // button5
             // 
-            button5.Location = new Point(11, 256);
+            button5.Dock = DockStyle.Top;
+            button5.Location = new Point(0, 92);
             button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 9;
-            button5.Text = "button5";
+            button5.Size = new Size(231, 46);
+            button5.TabIndex = 2;
+            button5.Text = "Comprobantes";
             button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Dock = DockStyle.Top;
+            button4.Location = new Point(0, 46);
+            button4.Name = "button4";
+            button4.Size = new Size(231, 46);
+            button4.TabIndex = 1;
+            button4.Text = "Negocio";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Dock = DockStyle.Top;
+            button3.Location = new Point(0, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(231, 46);
+            button3.TabIndex = 0;
+            button3.Text = "Usuarios";
+            button3.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            panel2.Controls.Add(textBox2);
-            panel2.Controls.Add(textBox1);
-            panel2.Controls.Add(label1);
-            panel2.Location = new Point(145, 1);
+            panel2.Controls.Add(adminbt);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 152);
             panel2.Name = "panel2";
-            panel2.Size = new Size(486, 125);
-            panel2.TabIndex = 8;
+            panel2.Size = new Size(231, 46);
+            panel2.TabIndex = 2;
+            panel2.Paint += panel2_Paint;
             // 
-            // label1
+            // adminbt
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(15, 11);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            adminbt.Dock = DockStyle.Right;
+            adminbt.Location = new Point(88, 0);
+            adminbt.Name = "adminbt";
+            adminbt.Size = new Size(143, 46);
+            adminbt.TabIndex = 0;
+            adminbt.Text = "Administracion";
+            adminbt.UseVisualStyleBackColor = true;
+            adminbt.Click += button2_Click;
             // 
-            // textBox1
+            // panel1
             // 
-            textBox1.Location = new Point(15, 50);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(207, 27);
-            textBox1.TabIndex = 10;
+            panel1.Controls.Add(button1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 106);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(231, 46);
+            panel1.TabIndex = 1;
             // 
-            // textBox2
+            // button1
             // 
-            textBox2.Location = new Point(242, 50);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(207, 27);
-            textBox2.TabIndex = 11;
+            button1.Dock = DockStyle.Right;
+            button1.Location = new Point(119, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 46);
+            button1.TabIndex = 0;
+            button1.Text = "Dashboard";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // PanelLogo
             // 
-            panel3.Controls.Add(textBox7);
-            panel3.Controls.Add(label2);
-            panel3.Location = new Point(145, 132);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(486, 125);
-            panel3.TabIndex = 12;
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(15, 50);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(434, 27);
-            textBox7.TabIndex = 10;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(15, 11);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 0;
-            label2.Text = "label2";
-            // 
-            // panel4
-            // 
-            panel4.Controls.Add(textBox6);
-            panel4.Controls.Add(textBox5);
-            panel4.Controls.Add(textBox4);
-            panel4.Controls.Add(textBox3);
-            panel4.Location = new Point(637, 1);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(194, 179);
-            panel4.TabIndex = 13;
-            // 
-            // panel5
-            // 
-            panel5.Controls.Add(button6);
-            panel5.Location = new Point(637, 186);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(194, 71);
-            panel5.TabIndex = 14;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(19, 22);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(153, 27);
-            textBox3.TabIndex = 12;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(19, 55);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(153, 27);
-            textBox4.TabIndex = 13;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(19, 88);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(153, 27);
-            textBox5.TabIndex = 14;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(19, 121);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(153, 27);
-            textBox6.TabIndex = 15;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(19, 16);
-            button6.Name = "button6";
-            button6.Size = new Size(153, 38);
-            button6.TabIndex = 12;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            PanelLogo.Dock = DockStyle.Top;
+            PanelLogo.Location = new Point(0, 0);
+            PanelLogo.Name = "PanelLogo";
+            PanelLogo.Size = new Size(231, 106);
+            PanelLogo.TabIndex = 0;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(843, 450);
-            Controls.Add(panel5);
-            Controls.Add(panel4);
-            Controls.Add(panel3);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            ClientSize = new Size(1075, 563);
+            Controls.Add(Panelmenulateral);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
-            panel1.ResumeLayout(false);
+            Load += Form1_Load;
+            Panelmenulateral.ResumeLayout(false);
+            panelSubMenu.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            panel5.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
+        private Panel Panelmenulateral;
+        private Panel PanelLogo;
+        private Panel panel2;
+        private Button adminbt;
         private Panel panel1;
+        private Button button1;
+        private Panel panelSubMenu;
         private Button button5;
         private Button button4;
         private Button button3;
-        private Button button2;
-        private Button button1;
-        private Panel panel2;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label1;
-        private Panel panel3;
-        private TextBox textBox7;
-        private Label label2;
-        private Panel panel4;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private Panel panel5;
-        private Button button6;
     }
 }
