@@ -1,4 +1,5 @@
-﻿namespace Sistema_de_facturacion
+﻿
+namespace Sistema_de_facturacion
 {
     partial class Form3
     {
@@ -210,6 +211,16 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
