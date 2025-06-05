@@ -39,11 +39,11 @@
             textBox4 = new TextBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            textBox5 = new TextBox();
             textBox6 = new TextBox();
+            textBox5 = new TextBox();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -140,7 +140,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(textBox1);
             groupBox1.Controls.Add(label5);
-            groupBox1.Location = new Point(98, 12);
+            groupBox1.Location = new Point(173, 31);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(577, 246);
             groupBox1.TabIndex = 9;
@@ -154,30 +154,26 @@
             groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(label6);
-            groupBox2.Location = new Point(98, 264);
+            groupBox2.Location = new Point(173, 283);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(577, 150);
             groupBox2.TabIndex = 10;
             groupBox2.TabStop = false;
             groupBox2.Text = "groupBox2";
             // 
-            // label6
+            // textBox6
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(248, 27);
-            label6.Name = "label6";
-            label6.Size = new Size(72, 25);
-            label6.TabIndex = 11;
-            label6.Text = "Usuario";
+            textBox6.Location = new Point(327, 107);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(150, 31);
+            textBox6.TabIndex = 15;
             // 
-            // label7
+            // textBox5
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(117, 72);
-            label7.Name = "label7";
-            label7.Size = new Size(82, 25);
-            label7.TabIndex = 12;
-            label7.Text = "Nombre:";
+            textBox5.Location = new Point(327, 69);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(150, 31);
+            textBox5.TabIndex = 14;
             // 
             // label8
             // 
@@ -188,25 +184,29 @@
             label8.TabIndex = 13;
             label8.Text = "Total:";
             // 
-            // textBox5
+            // label7
             // 
-            textBox5.Location = new Point(327, 69);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(150, 31);
-            textBox5.TabIndex = 14;
+            label7.AutoSize = true;
+            label7.Location = new Point(117, 72);
+            label7.Name = "label7";
+            label7.Size = new Size(82, 25);
+            label7.TabIndex = 12;
+            label7.Text = "Nombre:";
             // 
-            // textBox6
+            // label6
             // 
-            textBox6.Location = new Point(327, 107);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(150, 31);
-            textBox6.TabIndex = 15;
+            label6.AutoSize = true;
+            label6.Location = new Point(248, 27);
+            label6.Name = "label6";
+            label6.Size = new Size(72, 25);
+            label6.TabIndex = 11;
+            label6.Text = "Usuario";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(140, 430);
+            dataGridView1.Location = new Point(215, 449);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(512, 149);
@@ -235,7 +235,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(260, 604);
+            button1.Location = new Point(335, 623);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 13;
@@ -244,7 +244,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(409, 604);
+            button2.Location = new Point(484, 623);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
             button2.TabIndex = 14;

@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form3 : Form
+    public partial class Form7 : Form
     {
-        public Form3()
+        public Form7()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e)
         {
 
         }

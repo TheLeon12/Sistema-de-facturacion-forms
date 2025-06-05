@@ -46,13 +46,14 @@ namespace Sistema_de_facturacion
             label5 = new Label();
             button1 = new Button();
             button2 = new Button();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(298, 33);
+            label1.Location = new Point(272, 128);
             label1.Name = "label1";
             label1.Size = new Size(77, 25);
             label1.TabIndex = 0;
@@ -60,7 +61,7 @@ namespace Sistema_de_facturacion
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(393, 33);
+            textBox1.Location = new Point(367, 128);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(371, 31);
             textBox1.TabIndex = 1;
@@ -68,7 +69,7 @@ namespace Sistema_de_facturacion
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(314, 81);
+            label2.Location = new Point(288, 176);
             label2.Name = "label2";
             label2.Size = new Size(61, 25);
             label2.TabIndex = 2;
@@ -76,7 +77,7 @@ namespace Sistema_de_facturacion
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(393, 81);
+            dateTimePicker1.Location = new Point(367, 176);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(371, 31);
             dateTimePicker1.TabIndex = 3;
@@ -84,7 +85,7 @@ namespace Sistema_de_facturacion
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(286, 136);
+            label3.Location = new Point(260, 231);
             label3.Name = "label3";
             label3.Size = new Size(89, 25);
             label3.TabIndex = 4;
@@ -92,7 +93,7 @@ namespace Sistema_de_facturacion
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(393, 133);
+            textBox2.Location = new Point(367, 228);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(136, 31);
             textBox2.TabIndex = 5;
@@ -100,7 +101,7 @@ namespace Sistema_de_facturacion
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(535, 136);
+            label4.Location = new Point(509, 231);
             label4.Name = "label4";
             label4.Size = new Size(87, 25);
             label4.TabIndex = 6;
@@ -108,7 +109,7 @@ namespace Sistema_de_facturacion
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(628, 133);
+            textBox3.Location = new Point(602, 228);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(136, 31);
             textBox3.TabIndex = 7;
@@ -117,7 +118,7 @@ namespace Sistema_de_facturacion
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(220, 204);
+            dataGridView1.Location = new Point(194, 299);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(609, 225);
@@ -153,25 +154,25 @@ namespace Sistema_de_facturacion
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(279, 455);
+            textBox4.Location = new Point(253, 550);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(136, 31);
             textBox4.TabIndex = 10;
-            textBox4.TextChanged += this.textBox4_TextChanged;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(220, 455);
+            label5.Location = new Point(194, 550);
             label5.Name = "label5";
             label5.Size = new Size(53, 25);
             label5.TabIndex = 9;
             label5.Text = "Total:";
-            label5.Click += this.label5_Click;
+            label5.Click += label5_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(347, 522);
+            button1.Location = new Point(321, 617);
             button1.Name = "button1";
             button1.Size = new Size(157, 34);
             button1.TabIndex = 11;
@@ -181,18 +182,29 @@ namespace Sistema_de_facturacion
             // 
             // button2
             // 
-            button2.Location = new Point(535, 522);
+            button2.Location = new Point(509, 617);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
             button2.TabIndex = 12;
             button2.Text = "Cancelar";
             button2.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(474, 55);
+            label6.Name = "label6";
+            label6.Size = new Size(64, 25);
+            label6.TabIndex = 13;
+            label6.Text = "Ventas";
+            label6.Click += label6_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(852, 594);
+            ClientSize = new Size(852, 674);
+            Controls.Add(label6);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox4);
@@ -242,5 +254,6 @@ namespace Sistema_de_facturacion
         private Label label5;
         private Button button1;
         private Button button2;
+        private Label label6;
     }
 }
