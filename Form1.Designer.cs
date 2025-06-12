@@ -38,6 +38,7 @@
             panel1 = new Panel();
             button1 = new Button();
             PanelLogo = new Panel();
+            panelChildForm = new Panel();
             Panelmenulateral.SuspendLayout();
             panelSubMenu.SuspendLayout();
             panel2.SuspendLayout();
@@ -55,7 +56,7 @@
             Panelmenulateral.Location = new Point(0, 0);
             Panelmenulateral.Margin = new Padding(4);
             Panelmenulateral.Name = "Panelmenulateral";
-            Panelmenulateral.Size = new Size(231, 563);
+            Panelmenulateral.Size = new Size(231, 544);
             Panelmenulateral.TabIndex = 7;
             // 
             // panelSubMenu
@@ -147,11 +148,20 @@
             PanelLogo.Size = new Size(231, 106);
             PanelLogo.TabIndex = 0;
             // 
+            // panelChildForm
+            // 
+            panelChildForm.Dock = DockStyle.Fill;
+            panelChildForm.Location = new Point(231, 0);
+            panelChildForm.Name = "panelChildForm";
+            panelChildForm.Size = new Size(697, 544);
+            panelChildForm.TabIndex = 8;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1075, 563);
+            ClientSize = new Size(928, 544);
+            Controls.Add(panelChildForm);
             Controls.Add(Panelmenulateral);
             Margin = new Padding(4);
             Name = "Form1";
@@ -175,5 +185,6 @@
         private Button button5;
         private Button button4;
         private Button button3;
+        private Panel panelChildForm;
     }
 }
