@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_facturacion
 {
-    partial class Form16
+    partial class ListaDeUsuarios
     {
         /// <summary>
         /// Required designer variable.

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form10 : Form
+    public partial class ListaDeCategoria : Form
     {
-        public Form10()
+        public ListaDeCategoria()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

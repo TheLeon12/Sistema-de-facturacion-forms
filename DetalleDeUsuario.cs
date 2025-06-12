@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form11 : Form
+    public partial class DetalleDeUsuario : Form
     {
-        public Form11()
+        public DetalleDeUsuario()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

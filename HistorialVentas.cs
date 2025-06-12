@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form16 : Form
+    public partial class HistorialVentas : Form
     {
-        public Form16()
+        public HistorialVentas()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form9 : Form
+    public partial class EstadoDeCaja : Form
     {
-        public Form9()
+        public EstadoDeCaja()
         {
             InitializeComponent();
         }

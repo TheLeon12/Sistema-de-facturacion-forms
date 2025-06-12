@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_facturacion
 {
-    partial class Form9
+    partial class Clientes
     {
         /// <summary>
         /// Required designer variable.

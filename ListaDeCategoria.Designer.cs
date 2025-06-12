@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_facturacion
 {
-    partial class Form8
+    partial class ListaDeCategoria
     {
         /// <summary>
         /// Required designer variable.

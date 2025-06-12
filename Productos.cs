@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form18 : Form
+    public partial class Productos : Form
     {
-        public Form18()
+        public Productos()
         {
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -27,7 +32,7 @@ namespace Sistema_de_facturacion
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void label11_Click(object sender, EventArgs e)
         {
 
         }

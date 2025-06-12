@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Sistema_de_facturacion
 {
-    public partial class Form12 : Form
+    public partial class DetalleDeProducto : Form
     {
-        public Form12()
+        public DetalleDeProducto()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

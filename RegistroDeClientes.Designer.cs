@@ -1,7 +1,7 @@
 ﻿
 namespace Sistema_de_facturacion
 {
-    partial class Form18
+    partial class RegistroDeClientes
     {
         /// <summary>
         /// Required designer variable.

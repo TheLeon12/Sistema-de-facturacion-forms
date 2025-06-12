@@ -1,6 +1,6 @@
 ﻿namespace Sistema_de_facturacion
 {
-    partial class Form12
+    partial class EstadoDeCaja
     {
         /// <summary>
         /// Required designer variable.
