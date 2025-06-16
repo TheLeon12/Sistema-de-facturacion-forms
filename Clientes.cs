@@ -16,5 +16,10 @@ namespace Sistema_de_facturacion
         {
             InitializeComponent();
         }
+
+        private void Clientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
