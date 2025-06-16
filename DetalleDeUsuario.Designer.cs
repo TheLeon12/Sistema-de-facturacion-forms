@@ -30,26 +30,26 @@
         {
             label1 = new Label();
             groupBox1 = new GroupBox();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            comboBox2 = new ComboBox();
             textBox3 = new TextBox();
             comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(386, 36);
+            label1.Location = new Point(236, 29);
             label1.Name = "label1";
             label1.Size = new Size(187, 25);
             label1.TabIndex = 0;
@@ -57,6 +57,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
@@ -70,72 +71,49 @@
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(225, 92);
+            groupBox1.Location = new Point(75, 85);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(547, 369);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
             // 
-            // label2
+            // button3
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(27, 36);
-            label2.Name = "label2";
-            label2.Size = new Size(82, 25);
-            label2.TabIndex = 0;
-            label2.Text = "Nombre:";
+            button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button3.Location = new Point(298, 298);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 34);
+            button3.TabIndex = 13;
+            button3.Text = "Cancelar";
+            button3.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // button2
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(298, 36);
-            label3.Name = "label3";
-            label3.Size = new Size(70, 25);
-            label3.TabIndex = 1;
-            label3.Text = "Correo:";
+            button2.Location = new Point(129, 298);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 12;
+            button2.Text = "Guardar";
+            button2.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // button1
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(27, 118);
-            label4.Name = "label4";
-            label4.Size = new Size(83, 25);
-            label4.TabIndex = 2;
-            label4.Text = "Teléfono:";
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button1.Location = new Point(298, 215);
+            button1.Name = "button1";
+            button1.Size = new Size(211, 34);
+            button1.TabIndex = 2;
+            button1.Text = "Seleccionar Imagen";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // comboBox2
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(298, 118);
-            label5.Name = "label5";
-            label5.Size = new Size(41, 25);
-            label5.TabIndex = 3;
-            label5.Text = "Rol:";
-            label5.Click += label5_Click;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(27, 187);
-            label6.Name = "label6";
-            label6.Size = new Size(70, 25);
-            label6.TabIndex = 4;
-            label6.Text = "Estado:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(27, 64);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(214, 31);
-            textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(298, 64);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(211, 31);
-            textBox2.TabIndex = 6;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(298, 144);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(211, 33);
+            comboBox2.TabIndex = 11;
             // 
             // textBox3
             // 
@@ -152,50 +130,77 @@
             comboBox1.Size = new Size(214, 33);
             comboBox1.TabIndex = 10;
             // 
-            // comboBox2
+            // textBox2
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(298, 144);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(211, 33);
-            comboBox2.TabIndex = 11;
+            textBox2.Location = new Point(298, 64);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(211, 31);
+            textBox2.TabIndex = 6;
             // 
-            // button1
+            // textBox1
             // 
-            button1.Location = new Point(298, 215);
-            button1.Name = "button1";
-            button1.Size = new Size(211, 34);
-            button1.TabIndex = 2;
-            button1.Text = "Seleccionar Imagen";
-            button1.UseVisualStyleBackColor = true;
+            textBox1.Location = new Point(27, 64);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(214, 31);
+            textBox1.TabIndex = 5;
             // 
-            // button2
+            // label6
             // 
-            button2.Location = new Point(129, 298);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 12;
-            button2.Text = "Guardar";
-            button2.UseVisualStyleBackColor = true;
+            label6.AutoSize = true;
+            label6.Location = new Point(27, 187);
+            label6.Name = "label6";
+            label6.Size = new Size(70, 25);
+            label6.TabIndex = 4;
+            label6.Text = "Estado:";
             // 
-            // button3
+            // label5
             // 
-            button3.Location = new Point(298, 298);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 13;
-            button3.Text = "Cancelar";
-            button3.UseVisualStyleBackColor = true;
+            label5.AutoSize = true;
+            label5.Location = new Point(298, 118);
+            label5.Name = "label5";
+            label5.Size = new Size(41, 25);
+            label5.TabIndex = 3;
+            label5.Text = "Rol:";
+            label5.Click += label5_Click;
             // 
-            // Form17
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(27, 118);
+            label4.Name = "label4";
+            label4.Size = new Size(83, 25);
+            label4.TabIndex = 2;
+            label4.Text = "Teléfono:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(298, 36);
+            label3.Name = "label3";
+            label3.Size = new Size(70, 25);
+            label3.TabIndex = 1;
+            label3.Text = "Correo:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(27, 36);
+            label2.Name = "label2";
+            label2.Size = new Size(82, 25);
+            label2.TabIndex = 0;
+            label2.Text = "Nombre:";
+            // 
+            // DetalleDeUsuario
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(987, 517);
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(702, 479);
             Controls.Add(groupBox1);
             Controls.Add(label1);
-            Name = "Form17";
+            Name = "DetalleDeUsuario";
             Text = "Form17";
+            Load += DetalleDeUsuario_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

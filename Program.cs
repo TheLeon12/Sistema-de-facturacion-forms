@@ -16,7 +16,7 @@ namespace WinFormsConexionDB
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            string cadenaConexion = "Server=DESKTOP-ITEJDQK\\SQLEXPRESS;Database=SistemaFacturacion;Trusted_Connection=True;";
+            string cadenaConexion = "Server=DESKTOP-4ABMU15;Database=SistemaFacturacion;Trusted_Connection=True;";
 
             try
             {

@@ -106,6 +106,7 @@
             button18.TabIndex = 1;
             button18.Text = "Detalles de usuario";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
             // 
             // button19
             // 
@@ -118,6 +119,7 @@
             button19.TabIndex = 0;
             button19.Text = "Detalles de Producto";
             button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
             // 
             // button15
             // 
@@ -153,6 +155,7 @@
             button14.TabIndex = 3;
             button14.Text = "Reporte de productos";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button11
             // 
@@ -165,6 +168,7 @@
             button11.TabIndex = 2;
             button11.Text = "Reporte 607";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -177,6 +181,7 @@
             button12.TabIndex = 1;
             button12.Text = "Reporte 606";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // button13
             // 
@@ -189,6 +194,7 @@
             button13.TabIndex = 0;
             button13.Text = "Reporte de ventas";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
             // 
             // button7
             // 
@@ -224,6 +230,7 @@
             button8.TabIndex = 2;
             button8.Text = "Historial de ventas";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -236,6 +243,7 @@
             button9.TabIndex = 1;
             button9.Text = "Caja";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -248,6 +256,7 @@
             button10.TabIndex = 0;
             button10.Text = "Ventas";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button6
             // 
@@ -296,6 +305,7 @@
             button5.TabIndex = 2;
             button5.Text = "Comprobantes";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -308,6 +318,7 @@
             button4.TabIndex = 1;
             button4.Text = "Negocio";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -320,6 +331,7 @@
             button3.TabIndex = 0;
             button3.Text = "Usuarios";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // panel2
             // 

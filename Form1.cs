@@ -80,6 +80,7 @@ namespace Sistema_de_facturacion
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            hidesubmenu();
 
         }
 
@@ -105,5 +106,78 @@ namespace Sistema_de_facturacion
             showsubmenu(PanelSubMenu3);
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openChildForm(new DetalleDeUsuario());
+            hidesubmenu();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            hidesubmenu();
+
+        }
+       
     }
 }

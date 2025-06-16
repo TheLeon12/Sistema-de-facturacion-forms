@@ -21,5 +21,10 @@ namespace Sistema_de_facturacion
         {
 
         }
+
+        private void DetalleDeUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
